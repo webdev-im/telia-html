@@ -4,6 +4,53 @@
   box-sizing: border-box;
 }
 
+/* header */
+
+header {
+  padding: 0 12%;
+  font-size: 12px;
+  font-weight: 600;
+  height: 3rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.small-gap {
+  gap: 5px;
+}
+
+.small-icon {
+  height: 15px;
+}
+
+.big-icon {
+  height: 30px;
+}
+
+.divider {
+  height: 15px;
+  border-right: 1px solid lightgray;
+}
+.rounded-button {
+  background-color: #29003e;
+  color: white;
+  font-size: 12px;
+  border-radius: 50px;
+  padding: 7px 15px;
+  font-weight: 600;
+  border: none;
+}
+
 /* footer */
 
 footer {
