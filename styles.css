@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  height: 55vh;
+  background-color: #29003e;
+  padding: 0 12%;
+  color: white;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.logo img {
+  height: 24px;
+}
+
+.social-media-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-media-links img {
+  height: 15px;
+}
